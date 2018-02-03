@@ -29,7 +29,8 @@ public abstract class GameState implements InputListener{
 }
 ```
 
-An example class:
+An example class would be the following. To keep my gamestate id's organized, I have an enumerator named GameStates
+that keep track of all of my id's. 
 
 ```
 public class WorldState extends GameState{
@@ -54,7 +55,7 @@ enter into this particular gamestate:
 
 ```
 GameBox.registerState(new WorldState());
-GameBox.enterState(YOURSTATEID);
+GameBox.enterState(GameStates.PLAY);
 ```
 
 Finally, you call the following method to start the gameloop and show the game window to the player:
