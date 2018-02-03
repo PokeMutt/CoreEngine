@@ -1,6 +1,6 @@
 
-<img src="https://orig00.deviantart.net/1793/f/2018/033/f/7/coreengine_logo_by_pokemutt-dc202tg.png" width=700px />
-# <h1>CoreEngine</h1>
+<img src="https://orig00.deviantart.net/1793/f/2018/033/f/7/coreengine_logo_by_pokemutt-dc202tg.png" width=600px />
+<h1>CoreEngine</h1>
 A tiny java game engine. This was made specifically for a couple of projects of mine to facilitate my understanding
 of how game engines work.
 
