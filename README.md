@@ -1,5 +1,5 @@
 # CoreEngine
-A tiny engine for game development. This was made specifically for a couple of projects of mine to facilitate my understanding
+A tiny java game engine. This was made specifically for a couple of projects of mine to facilitate my understanding
 of how game engines work. <br>
 
 # <h2>Overview</h2>
