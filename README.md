@@ -8,6 +8,7 @@ of how game engines work.
 <ul>
   <li>State based</li>
   <li>2D game engine features</li>
+  <li>Basic C/S networking engine
   <li>No dependencies</li>
   <li>Small and simple</li>
   <li>Clean and easy state management</li>
