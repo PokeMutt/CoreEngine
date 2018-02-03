@@ -1,4 +1,4 @@
-package me.pokemutt.network;
+package me.zmsky.network;
 
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;

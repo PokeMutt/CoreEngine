@@ -1,4 +1,4 @@
-package me.pokemutt.network;
+package me.zmsky.network;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
