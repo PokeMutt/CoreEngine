@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GameServer implements Runnable{
+public abstract class GameServer implements Runnable{
 	
 	//The ServerSocket that will be receiving new connections constantly.
 	private ServerSocket server;

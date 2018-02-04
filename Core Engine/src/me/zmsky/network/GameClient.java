@@ -2,7 +2,7 @@ package me.zmsky.network;
 
 import java.net.Socket;
 
-public class GameClient{
+public abstract class GameClient{
 	//The server we will be connecting to.
 	private Connection server;
 	
