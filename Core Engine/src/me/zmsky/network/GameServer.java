@@ -6,7 +6,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class GameServer implements Runnable{
+public abstract class GameServer implements Runnable, NetworkListener{
 	
 	//The ServerSocket that will be receiving new connections constantly.
 	private ServerSocket server;
@@ -59,6 +59,7 @@ public abstract class GameServer implements Runnable{
 					synchronized(connections){
 						Connection newConnection = new Connection(newClient, connections.size());
 						newConnection.addListener(listener);
+						newConnection.addListener(this);
 						newConnection.start();
 						
 						for(NetworkListener listener : listeners){
