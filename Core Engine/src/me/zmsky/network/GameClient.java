@@ -2,7 +2,7 @@ package me.zmsky.network;
 
 import java.net.Socket;
 
-public abstract class GameClient{
+public abstract class GameClient implements NetworkListener{
 	//The server we will be connecting to.
 	private Connection server;
 	
@@ -11,6 +11,7 @@ public abstract class GameClient{
 	 */
 	public GameClient(){
 		server = new Connection();
+		server.addListener(this);
 	}
 	/** Starts listening for info with the already specified IP and Port.
 	 * 
