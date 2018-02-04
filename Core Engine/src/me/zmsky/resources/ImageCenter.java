@@ -27,7 +27,6 @@ import javax.xml.soap.Node;
 
 public abstract class ImageCenter {
 	private static Random random = new Random();
-	private static BufferedImage sprite;
 	private static String FilePath;
 	
 	private static Map<String, BufferedImage> cachedImages = new HashMap<String, BufferedImage>();
@@ -98,7 +97,7 @@ public abstract class ImageCenter {
 		return newimage;
 	}
 	public static BufferedImage getImage(String name){
-		sprite = null;
+		BufferedImage sprite;
 		
 		name = FilePath + name;
 		sprite = getCachedImage(name);
