@@ -2,7 +2,7 @@
 <img src="https://orig00.deviantart.net/1793/f/2018/033/f/7/coreengine_logo_by_pokemutt-dc202tg.png" width=600px />
 <h1>CoreEngine</h1>
 A tiny java game engine. This was made specifically for a couple of projects of mine to facilitate my understanding
-of how game engines work.
+of how game engines work. Not meant to be used for a full fledged production game, more of a prototyping tool
 
 # <h2>Overview</h2>
 <ul>
